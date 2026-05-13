@@ -1,0 +1,15 @@
+PROJECT_ROOT="Project_root_path"
+
+DATA_DIR=dataset
+MODEL_DIR=models
+LOG_DIR=logs
+
+DATASET_NAME=heart_disease.csv
+LOG_NAME=app.log
+MODEL_NAME=heart_disease_model.joblib
+
+TARGET_COL=target
+TEST_SIZE=0.2
+RANDOM_STATE=42
+
+API_URL=http://localhost:8000/predict
